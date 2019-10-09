@@ -45,7 +45,7 @@ function update(changes,id) {
 
 function remove(id) {
     let scheme = '';
-    
+
     findById(id).then(selectedScheme => {
         scheme = selectedScheme;
     })
